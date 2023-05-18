@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="dcx.ufpb.br.gui.JanelaAjuda">
+  <grid id="27dc6" binding="painelAjuda" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="663" height="512"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="d1276" binding="painelInformativo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <name value=""/>
+          <opaque value="false"/>
+          <toolTipText value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5d4de" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <tabbedpane title="Untitled"/>
+            </constraints>
+            <properties>
+              <background color="-8605478"/>
+            </properties>
+            <border type="none">
+              <font/>
+              <title-color color="-5524801"/>
+              <color color="-1"/>
+            </border>
+            <children>
+              <component id="5c28c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Droid Serif" size="28" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Seja Bem-vindo ao Abreu Bank"/>
+                </properties>
+              </component>
+              <component id="d2f39" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="banco.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="956a1" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="10" right="10"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1118482"/>
+                </properties>
+                <border type="bevel-lowered"/>
+                <children>
+                  <component id="218ab" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Nosso banco oferece diversos benefícios para o usuário!"/>
+                    </properties>
+                  </component>
+                  <component id="8059" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Dados Seguros"/>
+                    </properties>
+                  </component>
+                  <component id="450a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Crédito Especial"/>
+                    </properties>
+                  </component>
+                  <component id="8e60d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Saques e Depósitos"/>
+                    </properties>
+                  </component>
+                  <component id="4b9d5" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Transferências e Consulta"/>
+                    </properties>
+                  </component>
+                  <component id="da57b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <icon value="img-sobre-dados-seguros.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="f006c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <icon value="img-sobre-credito-especial.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ca388" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <icon value="img-sobre-sacar-depositar.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="e194a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <icon value="img-sobre-transferir-dinheiro.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="f95a7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Droid Serif" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Sobre"/>
+                </properties>
+              </component>
+              <component id="25b0a" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="2ac96" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <tabbedpane title="Untitled"/>
+            </constraints>
+            <properties>
+              <background color="-8605478"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d8493" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="banco.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="fab8f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Droid Serif" size="28" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Tipos de Contas"/>
+                </properties>
+              </component>
+              <component id="e1d3a" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="4688c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Droid Serif" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Contas"/>
+                </properties>
+              </component>
+              <grid id="22c07" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="10" right="10"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1118482"/>
+                </properties>
+                <border type="bevel-lowered"/>
+                <children>
+                  <component id="ff9cf" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Nosso banco oferece dois tipos de contas para o usuário!"/>
+                    </properties>
+                  </component>
+                  <component id="22c77" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="18" style="1"/>
+                      <foreground color="-16777216"/>
+                      <icon value="img-conta-normal.png"/>
+                      <text value="Conta Normal"/>
+                    </properties>
+                  </component>
+                  <component id="6782d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="18" style="1"/>
+                      <foreground color="-16777216"/>
+                      <icon value="img-conta-especial.png"/>
+                      <text value="Conta Especial"/>
+                    </properties>
+                  </component>
+                  <component id="7d421" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="img-texto-conta-normal.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="88d88" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="img-texto-conta-especial.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="dcx.ufpb.br.gui.JanelaTransferir">
+  <grid id="27dc6" binding="painelTransferir" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="772" height="469"/>
+    </constraints>
+    <properties>
+      <background color="-8605478"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cb297" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Conta Origem"/>
+        </properties>
+      </component>
+      <component id="c6217" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="N° da Conta"/>
+        </properties>
+      </component>
+      <component id="a1acc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Conta Destino"/>
+        </properties>
+      </component>
+      <component id="1ce84" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Nº da Conta"/>
+        </properties>
+      </component>
+      <component id="af2f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Nº da Agência"/>
+        </properties>
+      </component>
+      <component id="8c4df" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Nº da Agência"/>
+        </properties>
+      </component>
+      <component id="75005" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-16777216"/>
+          <icon value="logo-janela-transferir.png"/>
+          <text value="Efetuar Transferência"/>
+        </properties>
+      </component>
+      <component id="e9d07" class="javax.swing.JTextField" binding="txtNumContaOrigem">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="71143" class="javax.swing.JTextField" binding="txtNumAgOrigem">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ed39" class="javax.swing.JTextField" binding="txtNumContaDestino">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ff34a" class="javax.swing.JTextField" binding="txtNumAgDestino">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6da4c" class="javax.swing.JLabel" binding="linhaDeAviso">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="14" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="32e74" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cb4f3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Valor"/>
+        </properties>
+      </component>
+      <component id="a9dd2" class="javax.swing.JTextField" binding="txtValor">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="3afcf" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8d98f" class="javax.swing.JButton" binding="botaoVoltar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-4252891"/>
+              <icon value="voltar.png"/>
+              <text value="Voltar"/>
+            </properties>
+          </component>
+          <component id="62e52" class="javax.swing.JButton" binding="botaoConfirmar">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-16359407"/>
+              <icon value="confirme.png"/>
+              <text value="Confirmar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="47f11" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,6 @@
+           -------------------------MELHORIAS---------------------------
+
+Podemos ver na pasta "gui" que ocorre um acoplamento das classes que estendem de JFrame.
+E na pasta "controller" que é onde estão todas as funcionalidades dos botões e menus,
+foram criadas algumas classes de botões para voltar de uma janela para outra, mas vejo
+que podemos fazer essa funcionalidade na própria classe da Janela.
